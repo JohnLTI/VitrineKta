@@ -1,0 +1,44 @@
+html{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(216, 216, 216);
+}
+
+.container{
+   margin-top: 10%;
+   background-color: rgb(216, 216, 216);
+}
+h1.text-work{
+    text-align: right;
+    margin: 8%;
+    margin-right: 0%;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+img{
+    min-width: 77px;
+}
+img#prefeitura{
+    min-width: 130px;
+}
+.line1{
+    width:100%;
+}
+.line2{
+    justify-content: center;
+}
+p.p-text-about{
+    text-align: right;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.logos{
+    height: 120px;
+    width: 30%;
+    margin: 4%;
+}
+img#if-sudeste{
+    width: 15% !important;
+    margin-left: 12%;
+}

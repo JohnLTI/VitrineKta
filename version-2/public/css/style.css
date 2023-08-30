@@ -1,0 +1,490 @@
+
+/* Mapa de Localização */
+
+#map {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
+}
+
+.row {
+    margin-top: 10px;
+    margin-left: -3px;
+    border: 0px;
+    width: 100%;
+    display: flex;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.link-termos {
+    color: #000;
+}
+
+/*perfil comerciante Individual*/
+
+.containercabecalho-md{
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 1%;
+
+}
+.container-md{
+    background-color: rgb(255, 255, 255);
+}
+.imgcapacont{
+    background-color: #25a00c;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.imgperfilcont{
+    background-color: #232323;
+    margin-left: 10%;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin-top: -8%;
+    border-radius: 5%;
+}
+.mapacomeind{
+    width:100%;
+     height:100%;
+     
+}
+ .categoria{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 0px;
+} 
+.imgperfil{
+    position: relative;
+    width:200px;
+    height: 200px;
+   
+}
+.descricaoperfil{
+   
+    width: 100%;
+    height: 300px;
+    
+}
+#descricaoperfil{
+    margin-top: 10%;
+    width: 100%;
+    height: 300px;
+    text-align: left;
+   
+}
+.imgiconeredesocialindividual{
+    width: 50%;
+    height: auto;
+}
+#what-wpp{
+    margin-left:10px;
+}
+
+/*Carrousel Individual*/ 
+
+/* swiper ------------------------------------------------------------------- */
+.latest {
+    margin-top: 5rem;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: -150px;
+
+  }
+  
+  .latest .swiper-container {
+    width: 100%;
+    padding: 2rem 0;
+    margin-top: 5rem;
+    /* border: 2px solid #000; */
+    
+    overflow: hidden;
+  }
+  
+  .latest .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 300;
+  }
+  
+  .latest .comic-cover {
+   width: 100%;
+   height:100%;
+   object-fit: fill;
+   
+  box-shadow:  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+   
+  }
+
+/*carrosselperfil*/
+.carousel-inner{
+    height: 300px;
+    background-color: #a70b00;
+}
+
+/* table individual de horarios */
+
+#linha-dias{
+    background-color: #003b92;
+    color: white;
+}
+#table-individual{
+    border: 1px solid black;
+	margin-bottom:50px;
+}
+
+
+
+.logo-parceiros {
+    margin-top: 8%;
+}
+@media(max-width:761px) {
+     img.d-block {
+        height: 240px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #carousel {
+        padding: 10px 200px 10px 200px;
+        object-fit: fill;
+    }
+}
+
+@media(max-width:690px) {
+    .flexDiv {
+        width: 35%;
+    }
+}
+
+@media(max-width:580px) {
+    /*Responsividade da logo*/
+    .images-logos-responsivo {
+        position: absolute;
+        display: flex;
+        width: auto;
+        margin-left: 70px;
+        padding: 0;
+    }
+    .section-logo-footer {
+        display: block;
+    }
+    img.logo-parceiros {
+        width: auto;
+        margin-left: -50px;
+        margin-right: 50px;
+        justify-content: center;
+    }
+    #carousel {
+        padding: 10px 70px 10px 70px;
+        margin-bottom: 20px;
+        object-fit: fill;
+    }
+}
+
+@media(max-width:653px) {
+    .icons {
+        width: 100px;
+    }
+}
+
+@media(max-width:360px) {
+    #carousel {
+        padding: 10px 30px 10px 30px;
+        margin-bottom: 20px;
+        object-fit: fill;
+    }
+    footer .about-veno .logo {
+        margin-bottom: 40px;
+        margin-left: 0%;
+    }
+    .redes {
+        margin-left: -15px;
+    }
+    .icons {
+        margin-left: -15px;
+    }
+}
+
+@media(max-width:1286px) {
+    footer .about-veno .logo {
+        margin-bottom: 40px;
+        margin-left: -10%;
+    }
+    .redes {
+        margin-left: -15px;
+    }
+    .icons {
+        margin-left: -15px;
+    }
+}
+
+@media(max-width:851px) {
+    #carousel {
+        display: none;
+    }
+    .card {
+        position: start;
+    }
+    #descricao {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1106px) {
+    .col-md-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:1106px) {
+    #carousel {
+        display: none;
+    }
+
+    div.g-0 {
+        width: 100%;
+    }
+
+}
+
+
+
+@media (min-width: 568px) {
+    .name-item,
+    .city-item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .name-item input,
+    .city-item input {
+        width: calc(50% - 20px);
+    }
+    .city-item select {
+        width: calc(50% - 8px);
+    }
+}
+
+/*perfil comerciante Individual*/
+
+.containercabecalho-md{
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin-bottom: 1%;
+
+}
+.imgcapacont{
+    background-color: #25a00c;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.grupcont1{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 10%;
+}
+.imgperfilcont{
+    background-color: #23232300;
+    display: inline-flex;
+    margin-left: 10%;
+    margin-right: auto;
+    height: 200px;
+    width: 85%;
+    position: relative;
+    margin-top: -8%;
+    border-radius: 5%;
+}
+.mapacomeind{
+    width:100%;
+     height:100%;
+     
+}
+.imgperfil{
+    background-color: #0f0f0f;
+    position: relative;
+    width:200px;
+    height: 200px;
+  
+}
+.descricaoperfil{
+    /* margin-top: 12%; */
+    width: 100%;
+    height: 100px;
+    /* margin-left: 5%; */
+}
+.imgindgruprs{
+    position: relative;
+    display: inline-flex;
+    width: 15%;
+    
+}
+.imgindrs{
+width: 30px;
+height: 30px;
+margin-top: 4%;
+margin-left: 4%;
+}
+img.imgindrs {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+   
+            
+.imgiconeredesocialindividual{
+    width: 50%;
+    height: auto;
+}
+
+  td {
+   margin-left: 5%;
+   padding:15px;
+   text-align: center;
+ }
+ .divtabelaaberturafechamento {
+    text-align: -webkit-center;
+    
+}
+.respondivtabelaaberturafechamento{
+    text-align: -webkit-center;
+    margin-bottom: 10%;
+}
+.contcomerind{
+    text-align: left;
+    margin-left: 33px;
+    text-align: justify;
+
+}
+#idescricaoind{
+    text-align: justify;
+    
+}
+/*carrosselperfil*/
+.carousel-inner{
+    height: 300px;
+    background-color: #ffffff00;
+}
+@media (max-width: 900px) {
+    .imgperfilcont{
+        width: 100%;
+    margin-left: 0%;
+    }
+    .imgindgruprs{
+        display:none;
+    }
+    .imgindgruprsres{
+        position: absolute;
+        text-align-last: center;
+        width: 200px;
+        background-color: #00000063;
+    }
+
+    .imgindrs{
+       
+        width: 30px;
+        height: 30px;
+        margin-top: 4%;
+        margin-right: 3%;
+        margin-left: 0%;
+        margin-bottom: 4%;
+        }
+    .responredesociallogo{
+        width: 200px;
+        height: 200px;
+        margin-inline: auto;
+    }
+    .descricaoperfil{
+        display: none;
+    }
+    .grupcont1{
+        margin-bottom: 15%;
+    }
+    .respondescricaoperfil{
+        width: 100%;
+        text-align: center;
+    }
+    .contcomerind{
+        width: 90% !important;
+    
+    }
+}
+
+    @media (min-width: 900px) {
+        .imgindgruprsres{
+            display: none;
+        }
+        .respondescricaoperfil{
+            display: none;
+        }
+ 
+    }
+    @media (max-width:699px) {
+        .divtabelaaberturafechamento {
+            display: none;
+         }
+    }
+    @media (min-width:700px) {
+        .respondivtabelaaberturafechamento{
+           display: none;
+        }
+    }
+         
+
+/*FIM comerciante Individual*/
+
+/*Estilo Partes Parceiros*/
+
+.divtituloparceiros{
+    width: 100%;
+    text-align: center;
+}
+
+.divtextoparceiros{
+
+  margin-bottom:1.4em;
+  text-indent:1.5em;
+  text-align: justify;
+  
+}
+
+.divlogoparceiros {
+    text-align: center;
+}
+
+
+.mglogosparceiros{
+    width: 100px;
+    height: auto;
+    margin-left: 1.5%;
+    margin-right:1.5%; 
+    
+}
+
+   
+    
+       
+

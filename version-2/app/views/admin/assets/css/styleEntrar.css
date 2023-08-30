@@ -1,0 +1,201 @@
+
+
+:root{
+    --cinza:#e5e5e5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{ 
+  background-color: var(--cinza);
+}
+
+/*Cabeçalho*/
+
+header {
+	position: relative;
+	top: 0;
+	height: auto;
+	width: 100%;
+}
+
+/* navbar */
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 65px;
+	width: 100%;
+	z-index: 1;
+	background-color: #FFF;
+	border-bottom: 1px solid #CCC;
+}
+
+.nav-container {
+	max-width: 1200px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;	
+}
+
+.nav-container ul {
+	float: right;
+	height: 100px;
+	line-height: 58px;
+	margin-bottom: 30px;
+}
+
+.nav-container ul li {
+	list-style: none;
+	float: left;
+	/* margin: 0;*/
+} 
+
+.nav-container li a {
+	text-decoration: none;
+	color: black;
+	transition: .5s;
+    font-weight: 250;
+    font-size: 18px;  
+    font-family:'Bebas Neue', cursive ;
+}
+
+.nav-container li a:hover {
+	color: #3381f3;
+}
+
+.card-body{
+    background-color: #fff;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 25vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 50%);
+}
+
+.card-body h1{
+    
+    font-size: 2rem;
+    text-align: center;  
+}
+
+label,input {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 1px;
+   
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: #003b92;
+    cursor: pointer;
+    width: 100%;
+}
+input[type="submit"]:hover{
+    background-color: #3a74ca;
+    transition: .5s;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+
+.tex-Redes{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#social-container{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#social-container i {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+    text-align: center; 
+}
+
+.fa-facebook-f{
+     background-color: #3b5998;
+}
+
+.fa-facebook-f:hover{
+    background-color:#6C6D70;
+    transition: .5s;
+}
+
+
+.fa-instagram{
+    background-color:#3b5998;
+    color: black;
+} 
+
+.fa-instagram:hover{
+    background-color:#6C6D70;
+    transition: .5s;
+}
+
+#register-container{
+    margin-bottom: 10px;
+    text-align: center;
+    margin: 20px;
+}
+
+
+@media screen  and (max-width:770px){
+    .cont-text{
+        text-align: center;
+    }
+}
+
+@media screen  and (max-width:770px){
+    .login-container{
+        justify-items: center;
+    }
+}
+
+
+/*Respansividade*/
+
+@media screen  and (max-width:790px){
+    .card-body{
+        text-align: center;
+    }
+
+}
+
+@media screen  and (max-width:770px){
+    .nav-container li a {
+        display: none;
+    }
+}
+
